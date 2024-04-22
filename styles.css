@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+body {
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+  padding: 0;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+header {
+  color: #000000;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #020202;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #8a63b4; /* Morado pastel más oscuro */
+}
+
+nav ul li a i {
+  margin-right: 5px;
+}
+
+main {
+  padding: 30px;
+  text-align: center;
+}
+#lista {
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+}
+
+.about-image img {
+  width: 50%; /* Tamaño deseado para el GIF */
+  height: auto;
+}
+
+.about-text {
+  width: 50%;
+  padding-left: 20px;
+}
+
+footer {
+  font-size: 20px;
+  color: #000000;
+  padding: 20px;
+  text-align: center;
+}
